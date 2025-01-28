@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #000; /* Black background */
+      overflow: hidden; /* Prevent scrolling */
+    }
+    .contact-form {
+      background: #000; /* Black container background */
+      color: #fff; /* White text for contrast */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      max-width: 500px;
+      width: 100%;
+    }
+    .contact-form h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #fff;
+    }
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .contact-form input, 
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #555;
+      border-radius: 5px;
+      font-size: 14px;
+      background: #222; /* Dark gray input background */
+      color: #fff; /* White text */
+    }
+    .contact-form textarea {
+      resize: none;
+      height: 100px;
+    }
+    .contact-form button {
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .contact-form button:hover {
+      background-color: #0056b3;
+    }
+    .contact-form .image-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .contact-form .image-container img {
+      max-width: 150px; /* Set a smaller size */
+      height: auto;
+      display: inline-block;
+      border-radius: 8px; /* Optional: rounded corners for the image */
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-form">
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Enter your name" required>
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <div class="image-container">
+      <img src="—Pngtree—call center agent girl helpline_15637441.png" alt="Contact Image">
+    </div>
+  </div>
+</body>
+</html>
