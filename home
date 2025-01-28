@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumit</title>
+  
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(18, 14, 14);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(27, 27, 45);
+    }
+
+    h1 {
+        text-align: center;
+      margin-top: 20px;
+      font-size: 3rem;
+      color: rgb(227, 219, 225);
+    }
+
+    
+    
+    
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      margin: 23px;
+    }
+
+    .firstsection>div {
+      width: 30%;
+    }
+
+    .rightsection {
+      margin-top: 20px;
+      width: 70%;
+      margin: 0 23px;
+    }
+
+    .leftsection {
+      margin-top: 12%;
+      font-size: 2.5rem;
+    }
+
+    .purple {
+      color: rgb(255, 0, 191);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome to Vasco World</h1>
+
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        "Hey, I’m Lee Euntae, also known as Vasco, <br>the leader of Burn Knuckles.</br> Join me on this journey of justice, strength, and friendship!"
+
+      </div>
+      <div class="rightsection">
+        <img src="download.jpg" alt="Lee Euntae" style="width: 100%; height: auto;">
+      </div>
+    </section>
+  </main>
+
+
+</body>
+
+</html>
